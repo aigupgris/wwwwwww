@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS.2</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h2{
+            color: brown;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apa yang bisa dilakukan javascript ?</h1>
+    <h2>Latihan JS 1 innerHTML</h2>
+    <p id="demo">Teks yang akan diganti</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Apa Kabar Semua"'>Klik disini</button>
+    <h2>Latihan JS 2 src</h2>
+    <p> Menghidupkan lampu</p>
+    <button onclick='document.getElementById("myImage").src="pic_bulbon.gif"'>Hidupkan lampunya</button>
+    <img id="myImage" src="pic_bulboff.gif" alt="lampu mati" width="100px">
+    <button onclick='document.getElementById("myImage").src="pic_bulboff.gif"'>Matikan lampunya</button>
+</body>
+</html>

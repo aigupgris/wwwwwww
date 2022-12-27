@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 8 Form</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		table,tr,td{
+			border: 1px inset black;
+			border-collapse: collapse;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h2>Form Isian Minat Bakat Mahasiswa</h2>
+	<table border="1">
+		<form>
+			<tr>
+				<td><label for="nama">Nama</label></td>
+				<td colspan="4"><input type="text" id="nama" name="nama" value="" size="30" maxlength="40"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td colspan="4"><input type="text" id="alamat" name="alamat" value="" size="50" maxlength="60"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td><input type="radio" name="rjk" value=1>Laki-Laki</td>
+				<td><input type="radio" name="rjk" value=2>Perempuan</td>
+			</tr>
+			<tr>
+				<td>Minat dan Bakat</td>
+				<td><input type="checkbox" name="chk1" value="1">Sepakbola</td>
+				<td><input type="checkbox" name="chk2" value="2">E-Sport</td>
+				<td><input type="checkbox" name="chk3" value="3">Sinematografi</td>
+				<td><input type="checkbox" name="chk4" value="4">Teater</td>
+			</tr>
+			<tr>
+				<td>Diskripsi Diri</td>
+				<td colspan="4"><textarea name="ta1" cols="40" rows="20"></textarea></td>
+			</tr>
+			<tr><td colspan="5"><a href="latihan 6.html"><input type="button" name="bsubmit" value="Kirim"></td></tr>
+		</form>
+	</table>
+</body>
+</html>
